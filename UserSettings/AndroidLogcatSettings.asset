@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "RFCNB0LCBHB",
     "m_SelectedPackage": {
         "deviceId": "RFCNB0LCBHB",
-        "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 14913,
+        "name": "com.Games4Vidiots.com.Tapper",
+        "processId": 12523,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,12 +12,48 @@
             "deviceId": "RFCNB0LCBHB",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 17956,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "RFCNB0LCBHB",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 14913,
+            "exited": true
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.Games4Vidiots.com.Tapper",
+            "processId": 24185,
+            "exited": true
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.sec.android.app.launcher",
+            "processId": 2661,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.Games4Vidiots.com.Tapper",
+            "processId": 22158,
+            "exited": true
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.Games4Vidiots.com.Tapper",
+            "processId": 26165,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.Games4Vidiots.com.Tapper",
+            "processId": 6501,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCNB0LCBHB",
+            "name": "com.Games4Vidiots.com.Tapper",
+            "processId": 12523,
             "exited": false
         }
     ],

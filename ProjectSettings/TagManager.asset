@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3262424743
+    locked: 0
+  - name: Foreground
+    uniqueID: 3081795771
+    locked: 0
+  - name: HUD
+    uniqueID: 3543739901
+    locked: 0

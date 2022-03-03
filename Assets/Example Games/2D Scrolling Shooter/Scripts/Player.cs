@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Tapper.Data;
+using System;
 
 //This script manages the player object
 public class Player : Spaceship
@@ -55,4 +57,6 @@ public class Player : Spaceship
 			gameObject.SetActive(false);
 		}
 	}
+
+
 }
