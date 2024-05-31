@@ -1,62 +1,13 @@
 {
     "m_SelectedDeviceId": "RFCNB0LCBHB",
-    "m_SelectedPackage": {
-        "deviceId": "RFCNB0LCBHB",
-        "name": "com.Games4Vidiots.com.Tapper",
-        "processId": 12523,
+    "m_SelectedProcess": {
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 17956,
-            "exited": true
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 14913,
-            "exited": true
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.Games4Vidiots.com.Tapper",
-            "processId": 24185,
-            "exited": true
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.sec.android.app.launcher",
-            "processId": 2661,
-            "exited": false
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.Games4Vidiots.com.Tapper",
-            "processId": 22158,
-            "exited": true
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.Games4Vidiots.com.Tapper",
-            "processId": 26165,
-            "exited": false
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.Games4Vidiots.com.Tapper",
-            "processId": 6501,
-            "exited": false
-        },
-        {
-            "deviceId": "RFCNB0LCBHB",
-            "name": "com.Games4Vidiots.com.Tapper",
-            "processId": 12523,
-            "exited": false
-        }
-    ],
+    "m_KnownProcessesForSerialization": [],
     "m_Tags": {
         "m_Entries": [
             {
@@ -89,8 +40,11 @@
             }
         ]
     },
+    "m_ExtraWindowState": {
+        "Type": 0,
+        "Height": 0.0
+    },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 300.0,
         "MemoryWindowWidth": 170.0,
         "MemoryTypeEnabled": [
             true,
@@ -105,9 +59,35 @@
             true
         ],
         "MemoryGroup": 2,
-        "Behavior": 0
+        "AutoCapture": true
     },
-    "m_Filter": "",
-    "m_FilterIsRegularExpression": false,
-    "m_SymbolPaths": []
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    },
+    "m_InputSettings": {
+        "ShiftModifier": false,
+        "SendText": "",
+        "PosixKillSignal": 0,
+        "TargetProcess": {
+            "deviceId": "",
+            "name": "",
+            "processId": 0,
+            "exited": false
+        }
+    },
+    "m_AutoScroll": 0
 }

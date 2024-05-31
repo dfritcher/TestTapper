@@ -4,10 +4,10 @@ using UnityEngine.UI;
 public class Balloon : MonoBehaviour
 {
     [SerializeField] private float _minFallSpeed = 100f;
-    [SerializeField] private float _maxFallSpeed = 100f;
+    [SerializeField] private float _maxFallSpeed = 300f;
     [SerializeField] private float fallSpeed = 100f;
-    [SerializeField] private float _minSize = .35f;
-    [SerializeField] private float _maxSize = 2f;
+    [SerializeField] private float _minSize = .25f;
+    [SerializeField] private float _maxSize = 3f;
 
     private Image _ballonImage = null;
     private float _width;
@@ -18,7 +18,7 @@ public class Balloon : MonoBehaviour
     {
         _ballonImage = GetComponent<Image>();
         _width = ((RectTransform)_ballonImage.transform).rect.width;
-        StartPosition = new Vector3(Screen.width / 2, 0 );
+        StartPosition = new Vector3(Screen.width / 2, StartPosition.y, StartPosition.z );
     }
 
     private void Update()
@@ -28,6 +28,12 @@ public class Balloon : MonoBehaviour
 
         if (transform.position.y > Screen.height)
             Reset();
+    }
+
+    public void SetSpawnLocation(Vector3 spawnPosition)
+    {
+        StartPosition = new Vector3(StartPosition.x, spawnPosition.y, StartPosition.z);
+        transform.position = StartPosition;
     }
 
     public void ActivateBalloon()

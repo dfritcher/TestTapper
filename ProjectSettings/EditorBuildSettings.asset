@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/_Tapper Files/Scenes/Games/Balloon Pop.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
     path: Assets/_Tapper Files/Scenes/Games/1v1 Shooter.unity
     guid: 1f5a5b12a4f75204d991f043922fc1b5
   - enabled: 1
     path: Assets/_Tapper Files/Scenes/Main Game.unity
     guid: 6af5b2a90871d144b9650dd1db588435
+  - enabled: 1
+    path: Assets/_Tapper Files/Scenes/Games/Balloon Pop.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -11,13 +11,14 @@ public class BalloonSpawner : MonoBehaviour
     private void Start()
     {
         _timerUtility.OneSecond += SpawnBalloon;
-        //for(var i = 0; i < _balloons.Length; i++)
-        //{
-        //    _balloons[i].StartPosition = _spawnLocation.transform.position;
-        //}
+        for (var i = 0; i < _balloons.Length; i++)
+        {
+            _balloons[i].SetSpawnLocation(_spawnLocation.transform.localPosition);
+            if (i % 2 == 0)
+                SpawnBalloon();
+        }
     }
 
-    
     private void SpawnBalloon()
     {
         if (!spawnBalloon)
